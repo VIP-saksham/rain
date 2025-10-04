@@ -44,13 +44,13 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # ── Git / updates ──────────────────────────────────────────────────────────────
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/strad-dev131/TeamXmusic3.0")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/VIP-saksham/rain")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Main")
 GIT_TOKEN = getenv("GIT_TOKEN")  # needed if repo is private
 
 # ── Support links ──────────────────────────────────────────────────────────────
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TeamXUpdate")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TeamsXchat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Thehellbots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/hellbotsupport")
 
 # ── Assistant auto-leave ───────────────────────────────────────────────────────
 AUTO_LEAVING_ASSISTANT = False
@@ -98,26 +98,9 @@ def time_to_seconds(time: str) -> int:
 DURATION_LIMIT = time_to_seconds(f"{DURATION_LIMIT_MIN}:00")
 
 # ───── Bot Introduction Messages ───── #
-AYU = ["💞", "🦋", "🔍", "🧪", "⚡️", "🔥", "🎩", "🌈", "🍷", "🥂", "🥃", "🕊️", "🪄", "💌", "🧨"]
+AYU = ["💞", "🦋", "🔍", "🧪", "⚡️", "🔥", "🎩", "🌈", "🍷", "🥂", "🥃", "🕊️", "🪄", "💌"]
 AYUV = [
-    "🌧️ **Welcome, {0}.**  
-**{1}* is here to elevate your musical journey. 🌈🎶
-
-✨ **Premium Features Await You:**  
-┏━━━━━━━━━━━━━━━━━⧫  
-┠ ◆ **24/7 Music Streaming**  
-┠ ◆ **Top-tier Sound Quality**  
-┠ ◆ **Seamless Video Playback**  
-┠ ◆ **No Ads. No Interruptions.**  
-┗━━━━━━━━━━━━━━━━━⧫
-
-🌟 **Add me to your group**, make me admin, and enjoy a seamless musical experience, anytime, anywhere. 🎧💎
-
-💫 Let the **RainX** flow, and feel the beat.  
-🔮 **Experience the next level of music, always on demand.**  
-
-🫧 **Powered by TheHellBots** 🦋 ➪ [**Crafted by the RainX Creators**](https://t.me/ihellxyz)
-"       
+   "<b>────「 {1} 」────</b>\n\n</b>\b\b<b>𝐇єу 𝐓нєяє •🎙 {0} !\n🎵✨ᴅɪᴛᴄʜ ᴛʜᴇ ᴛʜʀᴇᴀᴅs, ʟᴇᴛ's ᴠɪʙᴇ ᴛᴏ ᴛʜᴇ ʀʜʏᴛʜᴍ.\nᴊᴏɪɴ ᴍᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ's ᴄᴜᴛɪᴇsᴛ ᴍᴜsɪᴄ ʙᴏᴛ.🎶"     
 ]
 
 # ── Runtime structures ─────────────────────────────────────────────────────────
