@@ -49,7 +49,7 @@ async def init():
     for all_module in ALL_MODULES:
         importlib.import_module("TEAMXMUSIC.plugins" + all_module)
 
-    LOGGER("TEAMXMUSIC.plugins").info("𝐓𝐞𝐚𝐦𝐗's ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...")
+    LOGGER("TEAMXMUSIC.plugins").info("RainX's ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...")
 
     await userbot.start()
     await JARVIS.start()
@@ -58,7 +58,7 @@ async def init():
         await JARVIS.stream_call("http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4")
     except NoActiveGroupCall:
         LOGGER("TEAMXMUSIC").error(
-            "ᴘʟᴇᴀsᴇ ᴛᴜʀɴ ᴏɴ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴏғ ʏᴏᴜʀ ʟᴏɢ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ.\n\n𝐓𝐞𝐚𝐦𝐗 ʙᴏᴛ sᴛᴏᴘᴘᴇᴅ..."
+            "ᴘʟᴇᴀsᴇ ᴛᴜʀɴ ᴏɴ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴏғ ʏᴏᴜʀ ʟᴏɢ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ.\n\nRainX ʙᴏᴛ sᴛᴏᴘᴘᴇᴅ..."
         )
         exit()
     except:
@@ -71,7 +71,7 @@ async def init():
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("TEAMXMUSIC").info("sᴛᴏᴘᴘɪɴɢ 𝐓𝐞𝐚𝐦𝐗 ᴍᴜsɪᴄ ʙᴏᴛ ...")
+    LOGGER("TEAMXMUSIC").info("sᴛᴏᴘᴘɪɴɢ RainX ᴍᴜsɪᴄ ʙᴏᴛ ...")
 
 
 if __name__ == "__main__":
