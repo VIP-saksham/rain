@@ -8,11 +8,13 @@ assistants = []
 assistantids = []
 
 GROUPS_TO_JOIN = [
-    "TeamXcoders",
-    "TeamXBotsDev",
-    "TheGlobalHub",
-    "TeamsXchat",
-    "TeamXUpdate",
+    "who_is_sam",
+    "Team_rdx_network",
+    "sunshine_chatting_group",
+    "Thehellbots",
+    "hellbotsupport",
+    "SUNSHINE_HINDI_ENGLISH_CHANNELS",
+    "GHORSANATANI",
 ]
 
 
